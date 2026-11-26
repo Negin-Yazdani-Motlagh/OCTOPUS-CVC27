@@ -1,0 +1,8 @@
+sequence,event_id,frame_id,roi,truth,local_ego,local_agent1,late_fusion,or_label,gate_label,correct_policy
+0003,v2v4real_0003_0173_negative,v2v4real_0003_0173,negative,0,1,0,0,1,0,disagreement_gate
+0005,v2v4real_0005_0269_negative,v2v4real_0005_0269,negative,0,0,1,0,1,0,disagreement_gate
+0006,v2v4real_0006_0000_negative,v2v4real_0006_0000,negative,0,1,0,0,1,0,disagreement_gate
+0006,v2v4real_0006_0044_negative,v2v4real_0006_0044,negative,0,0,1,0,1,0,disagreement_gate
+0006,v2v4real_0006_0214_negative,v2v4real_0006_0214,negative,0,0,1,0,1,0,disagreement_gate
+0006,v2v4real_0006_0290_negative,v2v4real_0006_0290,negative,0,1,0,0,1,0,disagreement_gate
+0008,v2v4real_0008_0057_negative,v2v4real_0008_0057,negative,0,1,0,0,1,0,disagreement_gate

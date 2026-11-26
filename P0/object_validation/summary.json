@@ -1,0 +1,12 @@
+{
+  "rows": 29,
+  "anchor_center_mismatches": 0,
+  "remain_harmful_0.50": 21,
+  "remain_harmful_0.70": 20,
+  "late_matches_0.50": 0,
+  "late_matches_0.70": 0,
+  "neither_local_0.50": 8,
+  "neither_local_0.70": 9,
+  "tests_run": 11,
+  "dms_commit": "d3b9949499c8e68ea33060873bd1cb95b6d4d323"
+}

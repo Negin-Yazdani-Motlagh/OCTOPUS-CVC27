@@ -1,0 +1,31 @@
+{
+  "events_recomputed_with_converter": 35874,
+  "label_mismatches": 0,
+  "ground_truth_columns": {
+    "frame": 0,
+    "track_id": 1,
+    "class": 2,
+    "height": 10,
+    "width": 11,
+    "length": 12,
+    "x": 13,
+    "y": 14,
+    "z": 15,
+    "yaw": 16
+  },
+  "detection_columns": {
+    "frame": 0,
+    "class_code": 1,
+    "score": 6,
+    "height": 7,
+    "width": 8,
+    "length": 9,
+    "x": 10,
+    "y": 11,
+    "z": 12,
+    "yaw": 13
+  },
+  "presence_test": "any retained center with (x-x0)^2 + (z-z0)^2 <= radius^2",
+  "plane": "KITTI camera X right, Y down, Z forward; Y is not used",
+  "detection_id": "1-based order of class-code-2 rows in that frame; the export has no track id"
+}

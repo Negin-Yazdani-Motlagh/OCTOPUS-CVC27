@@ -1,0 +1,4 @@
+radius_m,frames_total,frames_emitted,frames_dropped,balanced_queries,positives,negatives,gt_cars_in_positive_rois,positive_rois_with_one_car,positive_rois_with_two_or_more,max_gt_cars_in_one_positive_roi
+2.5,1993,1993,0,3986,1993,1993,2009,1977,16,2
+5.0,1993,1993,0,3986,1993,1993,2821,1339,654,5
+7.5,1993,1993,0,3986,1993,1993,3743,973,1020,7

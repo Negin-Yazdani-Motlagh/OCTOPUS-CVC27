@@ -1,0 +1,10 @@
+scene,frames,balanced_events,balanced_positives,ego_errors,agent1_errors,cobevt_errors,late_fusion_errors,separate_joint_errors,fixed_events,fixed_positives,fixed_ego_errors,fixed_agent1_errors,fixed_cobevt_errors,fixed_late_fusion_errors,fixed_separate_joint_errors
+0000,147,294,147,50,14,49,3,2,1764,11,14,10,4,21,0
+0001,114,228,114,77,44,6,7,5,1368,0,7,5,0,11,0
+0002,144,288,144,91,54,5,7,7,1728,0,10,11,0,20,1
+0003,198,396,198,85,89,32,29,25,2376,49,19,49,22,25,6
+0004,180,360,180,33,35,28,21,14,2160,0,5,0,1,5,0
+0005,310,620,310,115,109,40,36,23,3720,58,34,56,26,44,13
+0006,304,608,304,70,53,18,19,9,3648,31,14,28,14,31,7
+0007,221,442,221,108,98,34,14,7,2652,85,24,74,33,23,8
+0008,375,750,375,65,21,10,2,2,4500,6,7,9,5,8,4

@@ -1,0 +1,24 @@
+{
+  "trace": "/Users/negin/UML/Mobihoc_Extention/Negin_validation/P0/v2v4real_all/trace.jsonl",
+  "paired_classes": [
+    "both_success",
+    "rescued_joint_failure",
+    "introduced_joint_failure",
+    "both_fail"
+  ],
+  "class_definition": "local joint failure versus the broadcast label on the same query",
+  "always_ego": "both agents receive the ego detector label",
+  "always_partner": "both agents receive the partner detector label",
+  "complete_frame": "both the positive and negative queries are correct under the broadcast label",
+  "bootstrap_seed": 20261118,
+  "bootstrap_replicates": 20000,
+  "block_lengths_frames": [
+    1,
+    6,
+    12,
+    24
+  ],
+  "block_design": "each sequence is resampled to its own length with a circular moving block; the two queries in a frame stay together; sequences are not mixed",
+  "sequence_cluster_design": "nine sequences drawn with replacement, same seed, size-weighted pooled rate",
+  "interval": "2.5 and 97.5 percentiles, numpy quantile linear"
+}

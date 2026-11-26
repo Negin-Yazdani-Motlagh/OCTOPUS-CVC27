@@ -1,0 +1,2 @@
+sequence,frames,queries,positive_queries,negative_queries,local_mean_error,late_mean_error,local_agent_errors,late_agent_errors,joint_fn_local,joint_fn_late,joint_fp_local,joint_fp_late,disagreements,disagree_positive,disagree_negative,disagree_frames,corrected,introduced,gate_equals_or,candidate_positive_on_disagree
+all,1993,3986,1993,1993,0.14438033115905669,0.04867034621174109,1151,388,91,91,14,103,941,847,94,905,854,91,False,934

@@ -1,0 +1,13 @@
+score_min,source,boxes_retained
+0.2,ego,29837
+0.2,agent1,30209
+0.2,cobevt,33848
+0.2,late_fusion,42718
+0.3,ego,21854
+0.3,agent1,23617
+0.3,cobevt,26913
+0.3,late_fusion,32363
+0.5,ego,12783
+0.5,agent1,15378
+0.5,cobevt,15536
+0.5,late_fusion,20774

@@ -1,0 +1,21 @@
+{
+  "trace": "/Users/negin/UML/Mobihoc_Extention/Negin_validation/P0/v2v4real_all/trace.jsonl",
+  "sequences": 9,
+  "queries": 3986,
+  "frames": 1993,
+  "resamples": 20000,
+  "seed": 20261118,
+  "generator": "numpy.random.default_rng(20261118)",
+  "numpy": "2.5.5",
+  "unit": "driving sequence",
+  "draw": "9 sequences with replacement, equal probability, shared across every contrast and metric",
+  "estimand": "difference of size-weighted pooled rates on the resampled multiset",
+  "interval": "2.5 and 97.5 percentiles, numpy quantile method linear",
+  "positive_queries_where_policies_differ": 0,
+  "contrasts": [
+    "Late Fusion vs Local",
+    "Disagreement Gate vs Local",
+    "Disagreement Gate vs OR"
+  ],
+  "direction": "first named policy minus second named policy"
+}

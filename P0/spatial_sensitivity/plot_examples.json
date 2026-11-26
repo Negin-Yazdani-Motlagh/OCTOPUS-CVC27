@@ -1,0 +1,57 @@
+[
+  {
+    "kind": "rescued_miss",
+    "event_id": "v2v4real_0007_0000_positive",
+    "scene": "0007",
+    "frame": 0,
+    "center_kitti_xz": [
+      -12.621214,
+      -0.6291175
+    ],
+    "radius_m": 7.5,
+    "score_min": 0.3,
+    "truth": 1,
+    "ego": 1,
+    "partner": 0,
+    "late_fusion": 1,
+    "gt_track_ids_inside": [
+      "1"
+    ]
+  },
+  {
+    "kind": "shared_false_alarm",
+    "event_id": "v2v4real_0007_0005_negative",
+    "scene": "0007",
+    "frame": 5,
+    "center_kitti_xz": [
+      -40.891632,
+      37.57333
+    ],
+    "radius_m": 7.5,
+    "score_min": 0.3,
+    "truth": 0,
+    "ego": 1,
+    "partner": 0,
+    "late_fusion": 1,
+    "gt_track_ids_inside": []
+  },
+  {
+    "kind": "shared_miss",
+    "event_id": "v2v4real_0007_0035_positive",
+    "scene": "0007",
+    "frame": 35,
+    "center_kitti_xz": [
+      -41.379543,
+      -17.609974
+    ],
+    "radius_m": 7.5,
+    "score_min": 0.3,
+    "truth": 1,
+    "ego": 0,
+    "partner": 0,
+    "late_fusion": 0,
+    "gt_track_ids_inside": [
+      "1"
+    ]
+  }
+]
