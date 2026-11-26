@@ -1,0 +1,145 @@
+{
+  "coordination": {
+    "candidate_ids": [],
+    "enabled": false,
+    "resource_visibility": "edge_only",
+    "risk_estimator": {
+      "bias": 0.0,
+      "context_feature": null,
+      "context_slope": 0.0,
+      "correlation": 0.0,
+      "edge_error": 0.06,
+      "fusion_error": 0.06,
+      "kind": "constant",
+      "local_error": 0.1
+    },
+    "synthetic_features": {},
+    "visible_features": []
+  },
+  "energy": {
+    "agent_overrides": {},
+    "calibration": "hypothetical",
+    "calibration_source": "Illustrative E1 profile only; NOT hardware measurements",
+    "device_profiles": {
+      "agent": {
+        "baseline_w": 1.6,
+        "compute_incremental_w": 4.0,
+        "radio": {
+          "mode": "per_bit",
+          "rx_incremental_w": 0,
+          "rx_j_per_bit": 8e-08,
+          "tx_incremental_w": 0,
+          "tx_j_per_bit": 1.2e-07
+        }
+      },
+      "edge": {
+        "baseline_w": 17.0,
+        "compute_incremental_w": 9.0,
+        "radio": {
+          "mode": "per_bit",
+          "rx_incremental_w": 0,
+          "rx_j_per_bit": 5e-08,
+          "tx_incremental_w": 0,
+          "tx_j_per_bit": 5e-08
+        }
+      }
+    },
+    "enabled": true,
+    "measurement_window_ms": null,
+    "model_energy_j": {},
+    "model_incremental_w": {
+      "f0_decider": 9.0,
+      "late_fusion": 12.0,
+      "local_model": 4.0
+    }
+  },
+  "fusion_f0": {
+    "dependence_discount": 1.0,
+    "dependence_group_by_agent": {
+      "1": "physical_vehicle_1",
+      "2": "physical_vehicle_2",
+      "3": "physical_vehicle_3"
+    },
+    "error_by_agent": {
+      "1": 0.16809933142311365,
+      "2": 0.13658070678127984,
+      "3": 0.11270296084049666
+    },
+    "max_age_ms": 120,
+    "max_conflict_fraction": 0.4,
+    "max_risk_increase_over_local": null,
+    "max_shared_error_upper": null,
+    "max_source_error": 0.25,
+    "min_independent_groups": 2,
+    "min_score_confidence": 0.9,
+    "min_supporting_groups": 2,
+    "prior_positive": 0.5,
+    "quality_proxy_by_agent": {},
+    "require_risk_bounds": false
+  },
+  "policy": {
+    "name": "selective_fusion_f0",
+    "reuse_probability": 0.5
+  },
+  "resources": {
+    "edge_inference_ms": 30,
+    "edge_workers": 4,
+    "f0_decision_model_id": "f0_decider",
+    "local_inference_ms": 20,
+    "model_bindings": {
+      "edge": "edge_model",
+      "fusion": "late_fusion",
+      "local": "local_model"
+    },
+    "model_profiles": {
+      "edge_model": {
+        "compute_ms": 30.0,
+        "device": "edge",
+        "output_bytes": 128
+      },
+      "f0_decider": {
+        "compute_ms": 1.0,
+        "device": "edge",
+        "output_bytes": 128
+      },
+      "late_fusion": {
+        "compute_ms": 8,
+        "device": "edge",
+        "output_bytes": 128
+      },
+      "local_model": {
+        "compute_ms": 20.0,
+        "device": "local",
+        "output_bytes": 2048
+      }
+    },
+    "network_bandwidth_mbps": 100,
+    "network_channels": 1,
+    "network_latency_ms": 5,
+    "observation_bytes": 1024,
+    "packet_loss": 0,
+    "result_bytes": 128
+  },
+  "scenario": {
+    "agents": [
+      "1",
+      "2",
+      "3"
+    ],
+    "arrival_interval_ms": 300.0,
+    "deadline_ms": 250.0,
+    "episodes": 1200,
+    "name": "CooperScene_three_physical_vehicle_ROI_F0",
+    "seed": 123
+  },
+  "schema_version": 1,
+  "world": {
+    "backend": "trace",
+    "edge_correlation": 0.0,
+    "edge_error": 0.06,
+    "execution_granularity": "frame",
+    "local_correlation": 0.0,
+    "local_error": 0.1,
+    "trace_file": "trace.jsonl"
+  }
+}

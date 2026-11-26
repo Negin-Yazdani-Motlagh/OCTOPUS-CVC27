@@ -1,0 +1,42 @@
+{
+  "cost_status": "simulated_hypothetical_energy_and_service_times",
+  "data_release_status": "upstream_data_not_redistributed",
+  "dataset": "CooperScene",
+  "decision_events": 1200,
+  "error_rate_origin": "unfitted_assumption",
+  "input_sha256": "839fd48474a9f1a957f55945d5661b99ed8ed6322eb68bddacc483bb8da62f02",
+  "limitations": [
+    "per-agent binary ROI predictions must be generated from real detectors externally",
+    "ground truth appears only in scoring, not in fusion observations",
+    "physical sensor lineages distinct; environmental errors may remain correlated",
+    "no calibrated network/energy model has been fitted to CooperScene",
+    "ROI-to-box projection and detector training not performed by this converter"
+  ],
+  "output_trace_sha256": "68f5fb70e0ede293f49b2c617d0c7abfc7b32ce29779ca4a3ff0c98864075d1e",
+  "physical_frames": 30,
+  "physical_vehicles": [
+    "1",
+    "2",
+    "3"
+  ],
+  "prediction_origin": "real_detector_export",
+  "protocol_sha256": "114196589ce63de7217ffc99c6607813cb5830e05ab1737e8791870bf58f2b7f",
+  "source_repository": "https://github.com/UCR-CISL/CooperScene",
+  "split": "test",
+  "take_counts": {
+    "1": 1200
+  },
+  "verifiable_source_artifacts": {
+    "checkpoint_sha256": {
+      "1": "d71292a772a3f422eb818ab5012a893ee325bffef572524f9c89681eea50f761",
+      "2": "d71292a772a3f422eb818ab5012a893ee325bffef572524f9c89681eea50f761",
+      "3": "d71292a772a3f422eb818ab5012a893ee325bffef572524f9c89681eea50f761"
+    },
+    "ground_truth_export_sha256": "5e70d35563be7bf2e1f2a1e22b8b73cdbff122310b9d26d50a1a303d8aec5ea1",
+    "per_vehicle_prediction_export_sha256": {
+      "1": "c65e2db9966b79b2fd99f6feef3c4d74a3424a9c89c2faf15ed496bc4446d22f",
+      "2": "86b2b87b3bedd5b2a55f4c9c038f3c4de18891a0ff93e8a5175d04d6d9113837",
+      "3": "47b6d1012eb2b328d384c6bcbb2d3ff7cab48c948bf72cb302dd384fb17eda92"
+    }
+  }
+}

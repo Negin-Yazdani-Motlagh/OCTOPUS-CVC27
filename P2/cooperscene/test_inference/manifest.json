@@ -1,0 +1,78 @@
+{
+  "dataset": "CooperScene",
+  "split": "test",
+  "vehicle_ids": [
+    "1",
+    "2",
+    "3"
+  ],
+  "roi_protocol": "predeclared_world_xy_grid_v1",
+  "coordinate_frame": "cooperscene_global_xy_m",
+  "prediction_origin": "real_detector_export",
+  "physical_detector_runs": {
+    "1": "bevfusion_single_lidar_test_vehicle1",
+    "2": "bevfusion_single_lidar_test_vehicle2",
+    "3": "bevfusion_single_lidar_test_vehicle3"
+  },
+  "assumed_source_error": {
+    "1": 0.16809933142311365,
+    "2": 0.13658070678127984,
+    "3": 0.11270296084049666
+  },
+  "error_estimator_status": "unfitted_assumption",
+  "error_rate_note": "assumed_source_error values are binary region-mismatch rates measured on the validation common ROIs. They are not object-level F1. The importer's fitted status is legal only for a train split, and this study did not fit on train.",
+  "interval_ms": 300.0,
+  "interval_note": "Hypothetical arrival interval from examples/f0/three_agent_f0.json, not measured here.",
+  "checkpoint_sha256": {
+    "1": "d71292a772a3f422eb818ab5012a893ee325bffef572524f9c89681eea50f761",
+    "2": "d71292a772a3f422eb818ab5012a893ee325bffef572524f9c89681eea50f761",
+    "3": "d71292a772a3f422eb818ab5012a893ee325bffef572524f9c89681eea50f761"
+  },
+  "per_vehicle_prediction_exports": {
+    "1": {
+      "path": "vehicle_1_predictions.jsonl",
+      "sha256": "c65e2db9966b79b2fd99f6feef3c4d74a3424a9c89c2faf15ed496bc4446d22f"
+    },
+    "2": {
+      "path": "vehicle_2_predictions.jsonl",
+      "sha256": "86b2b87b3bedd5b2a55f4c9c038f3c4de18891a0ff93e8a5175d04d6d9113837"
+    },
+    "3": {
+      "path": "vehicle_3_predictions.jsonl",
+      "sha256": "47b6d1012eb2b328d384c6bcbb2d3ff7cab48c948bf72cb302dd384fb17eda92"
+    }
+  },
+  "ground_truth_export": {
+    "path": "ground_truth.jsonl",
+    "sha256": "5e70d35563be7bf2e1f2a1e22b8b73cdbff122310b9d26d50a1a303d8aec5ea1"
+  },
+  "validation_region_error": {
+    "1": {
+      "q": 0.16809933142311365,
+      "tp": 164,
+      "fp": 4,
+      "fn": 172,
+      "tn": 707,
+      "n": 1047,
+      "importer_range": true
+    },
+    "2": {
+      "q": 0.13658070678127984,
+      "tp": 196,
+      "fp": 3,
+      "fn": 140,
+      "tn": 708,
+      "n": 1047,
+      "importer_range": true
+    },
+    "3": {
+      "q": 0.11270296084049666,
+      "tp": 223,
+      "fp": 5,
+      "fn": 113,
+      "tn": 706,
+      "n": 1047,
+      "importer_range": true
+    }
+  }
+}

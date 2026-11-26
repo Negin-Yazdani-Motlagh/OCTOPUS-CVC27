@@ -1,0 +1,33 @@
+P2 CooperScene one-frame smoke test, 25 Nov 2026, Bouchet node a1117u29n01.
+
+GPU: NVIDIA B200, compute capability 10.0, 183359 MiB, driver 580.178.04.
+The laptop RTX 3050 cannot run this detector. The official CooperScene pins
+(PyTorch 2.1, CUDA 12.1, spconv-cu120, mmcv<2.2) cannot run on the B200.
+The working stack is a scratch virtualenv with PyTorch 2.9.1 CUDA 12.8,
+spconv 2.3.8 built for compute 10.0, and MMCV 2.2.0 compiled in that environment.
+OCTOPUS source was not modified. No training was run. tools/test.py was not run.
+The cooperative checkpoints were not downloaded.
+
+Checkpoint: assets/bevfusion/bevfusion_single_lidar.pth
+115390760 bytes, SHA-256 d71292a772a3f422eb818ab5012a893ee325bffef572524f9c89681eea50f761.
+
+Mini archive: data/mini/mini
+train 120, validate 30, test 30, agents 0, 1, 2, and 3 each present.
+Agent 0 is the roadside sensor and was not used as a vehicle.
+
+One frame: test/1/1/481410.pcd, agent 1, 110245 points, 4 fields.
+The loader expects raw float32, so the point cloud was written to data/one_frame.bin.
+Sparse-convolution weights in the checkpoint use axis order
+[out, depth, height, width, in]. This spconv build expects
+[depth, height, width, in, out]. 21 tensors were permuted.
+STILL_MISMATCHED 0. MISSING_KEYS 0.
+MODEL_LOAD_OK BEVFusion.
+ONE_FRAME_OK tuple of length 2.
+BOXES 200.
+MAX_SCORE 0.07626160234212875.
+The forward pass completed. The score is below a normal detection cutoff, so these 200 boxes are low-confidence proposals rather than confident vehicles.
+Point range on that frame: x [-94.06, 94.34], y [-88.26, 82.13], z [-3.16, 19.44], intensity [3, 2855].
+The cloud is centered on the sensor. The model window is x,y [-72, 72] and z [-5, 3], so the far and high returns are dropped. Intensity values in the thousands are the likely reason the scores stay near 0.08.
+
+Work directory, removed after the study is finished:
+/nfs/roberts/scratch/pi_sjf37/ei235/cs_p2

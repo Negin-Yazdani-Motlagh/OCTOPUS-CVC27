@@ -1,0 +1,44 @@
+TIMING vehicle 1 n 30 mean_s 0.06830389433695624 median_s 0.05513182806316763 mean_excluding_first_s 0.057260055697105565 max_s 0.3885752148926258 peak_allocated_mib 598.4619140625
+TIMING vehicle 2 n 30 mean_s 0.05350297458159427 median_s 0.05334184505045414 mean_excluding_first_s 0.0534987136047205 max_s 0.0569743390660733 peak_allocated_mib 598.4619140625
+TIMING vehicle 3 n 30 mean_s 0.05832140465111782 median_s 0.05746114894282073 mean_excluding_first_s 0.058361093128292726 max_s 0.07040992309339345 peak_allocated_mib 598.4619140625
+METRICS_BEGIN
+1 score 0.05 iou 0.50 tp 425 fp 40 fn 12 P 0.9140 R 0.9725 F1 0.9424
+1 score 0.05 iou 0.70 tp 393 fp 72 fn 44 P 0.8452 R 0.8993 F1 0.8714
+1 score 0.1 iou 0.50 tp 424 fp 14 fn 13 P 0.9680 R 0.9703 F1 0.9691
+1 score 0.1 iou 0.70 tp 392 fp 46 fn 45 P 0.8950 R 0.8970 F1 0.8960
+1 score 0.3 iou 0.50 tp 404 fp 7 fn 33 P 0.9830 R 0.9245 F1 0.9528
+1 score 0.3 iou 0.70 tp 377 fp 34 fn 60 P 0.9173 R 0.8627 F1 0.8892
+1 score 0.5 iou 0.50 tp 333 fp 0 fn 104 P 1.0000 R 0.7620 F1 0.8649
+1 score 0.5 iou 0.70 tp 325 fp 8 fn 112 P 0.9760 R 0.7437 F1 0.8442
+2 score 0.05 iou 0.50 tp 390 fp 85 fn 6 P 0.8211 R 0.9848 F1 0.8955
+2 score 0.05 iou 0.70 tp 363 fp 112 fn 33 P 0.7642 R 0.9167 F1 0.8335
+2 score 0.1 iou 0.50 tp 386 fp 46 fn 10 P 0.8935 R 0.9747 F1 0.9324
+2 score 0.1 iou 0.70 tp 361 fp 71 fn 35 P 0.8356 R 0.9116 F1 0.8720
+2 score 0.3 iou 0.50 tp 331 fp 5 fn 65 P 0.9851 R 0.8359 F1 0.9044
+2 score 0.3 iou 0.70 tp 312 fp 24 fn 84 P 0.9286 R 0.7879 F1 0.8525
+2 score 0.5 iou 0.50 tp 245 fp 0 fn 151 P 1.0000 R 0.6187 F1 0.7644
+2 score 0.5 iou 0.70 tp 237 fp 8 fn 159 P 0.9673 R 0.5985 F1 0.7395
+3 score 0.05 iou 0.50 tp 439 fp 32 fn 2 P 0.9321 R 0.9955 F1 0.9627
+3 score 0.05 iou 0.70 tp 408 fp 63 fn 33 P 0.8662 R 0.9252 F1 0.8947
+3 score 0.1 iou 0.50 tp 439 fp 15 fn 2 P 0.9670 R 0.9955 F1 0.9810
+3 score 0.1 iou 0.70 tp 408 fp 46 fn 33 P 0.8987 R 0.9252 F1 0.9117
+3 score 0.3 iou 0.50 tp 434 fp 7 fn 7 P 0.9841 R 0.9841 F1 0.9841
+3 score 0.3 iou 0.70 tp 405 fp 36 fn 36 P 0.9184 R 0.9184 F1 0.9184
+3 score 0.5 iou 0.50 tp 423 fp 2 fn 18 P 0.9953 R 0.9592 F1 0.9769
+3 score 0.5 iou 0.70 tp 397 fp 28 fn 44 P 0.9341 R 0.9002 F1 0.9169
+all score 0.05 iou 0.50 tp 1254 fp 157 fn 20 P 0.8887 R 0.9843 F1 0.9341
+all score 0.05 iou 0.70 tp 1164 fp 247 fn 110 P 0.8249 R 0.9137 F1 0.8670
+all score 0.1 iou 0.50 tp 1249 fp 75 fn 25 P 0.9434 R 0.9804 F1 0.9615
+all score 0.1 iou 0.70 tp 1161 fp 163 fn 113 P 0.8769 R 0.9113 F1 0.8938
+all score 0.3 iou 0.50 tp 1169 fp 19 fn 105 P 0.9840 R 0.9176 F1 0.9496
+all score 0.3 iou 0.70 tp 1094 fp 94 fn 180 P 0.9209 R 0.8587 F1 0.8887
+all score 0.5 iou 0.50 tp 1001 fp 2 fn 273 P 0.9980 R 0.7857 F1 0.8792
+all score 0.5 iou 0.70 tp 959 fp 44 fn 315 P 0.9561 R 0.7527 F1 0.8423
+METRICS_END
+LOAD_PEAK_MIB 31.69
+RESERVED_PEAK_MIB 932.00
+ROUNDTRIP_WORLD_MAX_M 2.1316282072803006e-14
+RECOMMEND_SCORE 0.1
+RECOMMEND_GRID radius 7.5 spacing 15.0 origin [-75.0, -105.0] n 144 multi_vehicle_circles True
+FAILURES 0
+VALIDATION_INFERENCE_DONE

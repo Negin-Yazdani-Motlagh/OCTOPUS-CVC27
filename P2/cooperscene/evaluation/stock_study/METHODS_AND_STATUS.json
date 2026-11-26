@@ -1,0 +1,12 @@
+{
+  "status": "real_per_vehicle_prediction_export",
+  "source_input_hash": "839fd48474a9f1a957f55945d5661b99ed8ed6322eb68bddacc483bb8da62f02",
+  "physical_vehicles": 3,
+  "risk_definition": "R_m = event-level probability at least m of three agents wrong",
+  "corrections": "changes in final agent labels relative to recorded local outputs",
+  "paired_comparisons": true,
+  "statistical_claim": "no confidence interval without multi-take hierarchy",
+  "cost_origin": "simulated_hypothetical_profiles_no_hardware_calibration",
+  "perception_metrics": "ROI presence, NOT 3D detection mAP",
+  "not_performed": "real sensor model inference, physical communication or power measurement"
+}

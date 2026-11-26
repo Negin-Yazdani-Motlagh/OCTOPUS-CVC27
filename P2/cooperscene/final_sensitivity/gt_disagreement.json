@@ -1,0 +1,2316 @@
+{
+  "status": "replayed_from_validation_boxes",
+  "source": "C:\\Users\\elyas\\OneDrive\\Desktop\\Negin\\Mobihoc_Extention\\Mobihoc_Extention\\Negin_validation\\P2\\cooperscene\\validation_inference",
+  "validation_frames": 30,
+  "common_regions": 1047,
+  "disagreements": 291,
+  "positive_truth_regions": 336,
+  "agreeing_regions": 756,
+  "ego_boxes_removed": {
+    "1": 30,
+    "2": 0,
+    "3": 0
+  },
+  "regions_by_cause": {
+    "annotation_coverage_only": 291
+  },
+  "vehicle_misses": {
+    "1": 168,
+    "2": 143,
+    "3": 113
+  },
+  "vehicle_cause": {
+    "1": {
+      "annotation_coverage": 168
+    },
+    "2": {
+      "annotation_coverage": 143
+    },
+    "3": {
+      "annotation_coverage": 113
+    }
+  },
+  "missing_vehicle_pattern": {
+    "2+3": 41,
+    "3": 54,
+    "1+2": 74,
+    "1": 76,
+    "1+3": 18,
+    "2": 28
+  },
+  "ego_restoration": {
+    "disagreements_removed": 0,
+    "disagreements_that_remain": 291,
+    "new_disagreements_if_ego_boxes_are_restored": 0,
+    "note": "Restoration puts the 3 m ego-dropped boxes back into each vehicle's kept set and into the union. A removed disagreement is one of the recorded 291 that all three vehicles then hit or all three miss. A new disagreement is a region that agreed under the frozen rule and would disagree only after that restoration."
+  },
+  "coordinate_transform": {
+    "boxes": 1274,
+    "frames": 30,
+    "max_abs_error_m": 2.1316282072803006e-14,
+    "median_abs_error_m": 1.7763568394002505e-15,
+    "boxes_above_1e-6_m": 0,
+    "boxes_above_1e-3_m": 0,
+    "boxes_above_0.01_m": 0,
+    "method": "Official CooperScene rotation applied to stored gt_boxes_ego, compared with stored gt_boxes_world."
+  },
+  "world_from_ego_max_abs_error_m": 2.1316282072803006e-14,
+  "cross_vehicle_nearest_kept_box_m": {
+    "pairs": 1210,
+    "median": 5.519753419134563,
+    "p90": 35.09638778190649
+  },
+  "spatial_examples": [
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        -30.0,
+        -15.0
+      ],
+      "grid_index": 42,
+      "missing": [
+        {
+          "vehicle": "2",
+          "cause": "annotation_coverage"
+        },
+        {
+          "vehicle": "3",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        -30.0,
+        0.0
+      ],
+      "grid_index": 43,
+      "missing": [
+        {
+          "vehicle": "2",
+          "cause": "annotation_coverage"
+        },
+        {
+          "vehicle": "3",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        -15.0,
+        -45.0
+      ],
+      "grid_index": 52,
+      "missing": [
+        {
+          "vehicle": "3",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        -15.0,
+        -30.0
+      ],
+      "grid_index": 53,
+      "missing": [
+        {
+          "vehicle": "3",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        15.0,
+        0.0
+      ],
+      "grid_index": 79,
+      "missing": [
+        {
+          "vehicle": "1",
+          "cause": "annotation_coverage"
+        },
+        {
+          "vehicle": "2",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        15.0,
+        15.0
+      ],
+      "grid_index": 80,
+      "missing": [
+        {
+          "vehicle": "1",
+          "cause": "annotation_coverage"
+        },
+        {
+          "vehicle": "2",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        30.0,
+        -45.0
+      ],
+      "grid_index": 88,
+      "missing": [
+        {
+          "vehicle": "1",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        30.0,
+        -30.0
+      ],
+      "grid_index": 89,
+      "missing": [
+        {
+          "vehicle": "1",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "center_xy_m": [
+        30.0,
+        0.0
+      ],
+      "grid_index": 91,
+      "missing": [
+        {
+          "vehicle": "1",
+          "cause": "annotation_coverage"
+        },
+        {
+          "vehicle": "2",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "center_xy_m": [
+        -30.0,
+        -15.0
+      ],
+      "grid_index": 42,
+      "missing": [
+        {
+          "vehicle": "2",
+          "cause": "annotation_coverage"
+        },
+        {
+          "vehicle": "3",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "center_xy_m": [
+        -30.0,
+        0.0
+      ],
+      "grid_index": 43,
+      "missing": [
+        {
+          "vehicle": "2",
+          "cause": "annotation_coverage"
+        },
+        {
+          "vehicle": "3",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "center_xy_m": [
+        -15.0,
+        -45.0
+      ],
+      "grid_index": 52,
+      "missing": [
+        {
+          "vehicle": "1",
+          "cause": "annotation_coverage"
+        },
+        {
+          "vehicle": "3",
+          "cause": "annotation_coverage"
+        }
+      ],
+      "region_cause": "annotation_coverage_only"
+    }
+  ],
+  "disagreement_points": [
+    {
+      "frame_token": "481380",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "x": -15.0,
+      "y": -30.0,
+      "grid_index": 53,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481380",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": -15.0,
+      "y": -30.0,
+      "grid_index": 53,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481381",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": -15.0,
+      "y": -30.0,
+      "grid_index": 53,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481382",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481383",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481384",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481385",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481386",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481387",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481388",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481389",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481390",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481391",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481392",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481393",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": -15.0,
+      "y": -45.0,
+      "grid_index": 52,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481394",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": 0.0,
+      "y": 0.0,
+      "grid_index": 67,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481395",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481396",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481396",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481396",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481396",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481396",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481396",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481396",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481396",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481397",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481398",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481399",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481400",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481401",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481402",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481403",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481404",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": -15.0,
+      "y": -60.0,
+      "grid_index": 51,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481405",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": -15.0,
+      "y": 15.0,
+      "grid_index": 56,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481406",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": -15.0,
+      "y": 15.0,
+      "grid_index": 56,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481407",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": -15.0,
+      "y": 15.0,
+      "grid_index": 56,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481408",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": -45.0,
+      "y": 0.0,
+      "grid_index": 31,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": -30.0,
+      "y": -15.0,
+      "grid_index": 42,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": -30.0,
+      "y": 0.0,
+      "grid_index": 43,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": -15.0,
+      "y": 15.0,
+      "grid_index": 56,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": 0.0,
+      "y": 15.0,
+      "grid_index": 68,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": 0.0,
+      "y": 30.0,
+      "grid_index": 69,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": 15.0,
+      "y": 0.0,
+      "grid_index": 79,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": 15.0,
+      "y": 15.0,
+      "grid_index": 80,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": 30.0,
+      "y": -45.0,
+      "grid_index": 88,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": 30.0,
+      "y": -30.0,
+      "grid_index": 89,
+      "region_cause": "annotation_coverage_only"
+    },
+    {
+      "frame_token": "481409",
+      "x": 30.0,
+      "y": 0.0,
+      "grid_index": 91,
+      "region_cause": "annotation_coverage_only"
+    }
+  ]
+}

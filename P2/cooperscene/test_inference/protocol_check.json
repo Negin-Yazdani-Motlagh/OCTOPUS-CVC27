@@ -1,0 +1,82 @@
+{
+  "validation_frames": 30,
+  "ego_gt": {
+    "1": {
+      "removed": 30,
+      "annotated": 437,
+      "fraction": 0.06864988558352403
+    },
+    "2": {
+      "removed": 0,
+      "annotated": 396,
+      "fraction": 0.0
+    },
+    "3": {
+      "removed": 0,
+      "annotated": 441,
+      "fraction": 0.0
+    }
+  },
+  "ego_predictions_at_or_above_score": {
+    "1": {
+      "removed": 30,
+      "above_score": 438,
+      "fraction": 0.0684931506849315
+    },
+    "2": {
+      "removed": 0,
+      "above_score": 432,
+      "fraction": 0.0
+    },
+    "3": {
+      "removed": 0,
+      "above_score": 454,
+      "fraction": 0.0
+    }
+  },
+  "gt_distance_to_own_lidar_m": {
+    "min": 0.2070689291660044,
+    "median": 28.017958525247987,
+    "p10": 6.460813006883163
+  },
+  "common_rois_per_frame": {
+    "min": 31,
+    "median": 33.0,
+    "max": 40
+  },
+  "label_disagreement_rate": 0.27793696275071633,
+  "label_disagreements": 291,
+  "common_decisions": 1047,
+  "positive_truth_regions": 336,
+  "region_error": {
+    "1": {
+      "q": 0.16809933142311365,
+      "tp": 164,
+      "fp": 4,
+      "fn": 172,
+      "tn": 707,
+      "n": 1047,
+      "importer_range": true
+    },
+    "2": {
+      "q": 0.13658070678127984,
+      "tp": 196,
+      "fp": 3,
+      "fn": 140,
+      "tn": 708,
+      "n": 1047,
+      "importer_range": true
+    },
+    "3": {
+      "q": 0.11270296084049666,
+      "tp": 223,
+      "fp": 5,
+      "fn": 113,
+      "tn": 706,
+      "n": 1047,
+      "importer_range": true
+    }
+  },
+  "gate_failures": [],
+  "passed": true
+}
