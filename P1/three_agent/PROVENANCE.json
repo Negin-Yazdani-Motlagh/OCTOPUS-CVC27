@@ -1,0 +1,48 @@
+{
+  "dataset": "synthetic, NOT actual V2V4Real 3-agent capture",
+  "agents": 3,
+  "physical_frames": 2000,
+  "roi_events_per_frame": 2,
+  "offline_decision_events_per_shock": 4000,
+  "online_frames": 600,
+  "random_seed": 77109,
+  "true_marginal_error_rates": {
+    "a": 0.015,
+    "b": 0.26,
+    "c": 0.32
+  },
+  "shock_probabilities": [
+    0.0,
+    0.06,
+    0.12,
+    0.18,
+    0.24
+  ],
+  "generation": "A is independent with q_A. B,C common wrong shock p=s; otherwise their conditional Bernoulli rates (q_i-s)/(1-s).",
+  "masking": "none in main grid; strict F0 accepts only if >=2 independent supporters",
+  "expert_extension": "EXPERIMENTAL diagnostic postprocessing of strict F0; one highly trusted source can override mistaken majority; NOT standard F0",
+  "expert_true_vs_assumed": "Synthetic population parameters are known by construction; calibration grid deliberately varies reported q_A away from true q_A.",
+  "error_interval": "paired frame bootstrap over each frame and its complete ROI event set",
+  "independent_seed_stress_check": "six independent synthetic draws from same generator; not domain shift",
+  "energy": "hypothetical E1 profiles; validated against actual integrated simulator DAG; no hardware measurement",
+  "roi_cost_model": "one physical local detector and F0 edge assessment per frame; ROI projections cost zero additional modeled inference",
+  "packet_loss": 0.0,
+  "deadline_misses": "none for local fallback; late F0 updates are discarded in deadline sweep",
+  "deadline_sweep_ms": [
+    21.0,
+    24.0,
+    26.0,
+    28.0,
+    30.0,
+    31.0,
+    31.5,
+    32.0,
+    33.0,
+    35.0,
+    38.0,
+    45.0
+  ],
+  "note_on_deadline_plot": "Deterministic fixed service profiles create sharp thresholds; no real-world latency distribution is implied",
+  "source_script": "scripts/run_three_agent_tradeoff_frontier.py",
+  "no_oracle": "policy input includes binary predictions, fixed assumed q, provenance and timestamps; never ground-truth labels"
+}

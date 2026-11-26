@@ -1,0 +1,5 @@
+policy,manuscript_r2_pct,reproduced_r2_pct,manuscript_r3_pct,reproduced_r3_pct,manuscript_mean_error_pct,reproduced_mean_error_pct,reproduced_queries,acceptance_pct
+Local,19.80,19.800,0.20,0.200,20.03,20.025,4000,0.000
+Majority,19.80,19.800,19.80,19.800,19.80,19.800,4000,100.000
+Conservative F0,19.80,19.800,0.40,0.400,13.66,13.658333,4000,79.625
+Expert override,1.38,1.375,1.38,1.375,1.38,1.375,4000,100.000

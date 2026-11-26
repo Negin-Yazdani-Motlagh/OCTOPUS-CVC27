@@ -1,0 +1,12 @@
+{
+  "equal_error": {
+    "weighted_matches_majority": true,
+    "one_group_matches_local": true
+  },
+  "result_reuse": {
+    "shared_result_matches_correct_group_on_exact_copy": true,
+    "illegal_shared_result_groupings": 2,
+    "illegal_grouping_error": "Same physical result cannot claim independent dependence groups",
+    "published_seed_environment_matches_prior_run": true
+  }
+}

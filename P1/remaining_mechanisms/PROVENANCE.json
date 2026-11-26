@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    5701,
+    5702,
+    5703,
+    5704,
+    5705,
+    5706
+  ],
+  "frames": 2000,
+  "rois": 2,
+  "bootstrap": 2500,
+  "bootstrap_seed_offset": 109,
+  "five_agent_source": "scripts/run_f0_cvc_parameter_study.py generate_controlled_traces and fast_study_run",
+  "equal_q": 0.1,
+  "heterogeneous_q": [
+    0.055,
+    0.08,
+    0.18,
+    0.18,
+    0.18
+  ],
+  "original_sources_modified": false,
+  "previous_results_modified": false
+}

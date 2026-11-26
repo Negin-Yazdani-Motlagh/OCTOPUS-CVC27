@@ -1,0 +1,16 @@
+{
+  "logit": 2.1972245773362196,
+  "confidence": 0.8999999999999999,
+  "threshold": 0.9,
+  "logit_boundary": 2.1972245773362196,
+  "original_accepts": false,
+  "logit_accepts": true,
+  "tolerance_1e_12_accepts": true,
+  "documented_tolerance": 1e-12,
+  "fuser_weight_minus_log9": -4.440892098500626e-16,
+  "heterogeneous_decisions_changed": {
+    "three_agent_table3_seed_77109_shock_0.18": {"changed": 0, "queries": 4000},
+    "five_agent_figure8_seed_5701_rho_0.75_grouped": {"changed": 0, "queries": 4000},
+    "five_agent_figure8_seed_5701_rho_0.75_separate_groups": {"changed": 0, "queries": 4000}
+  }
+}

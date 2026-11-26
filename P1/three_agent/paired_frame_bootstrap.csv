@@ -1,0 +1,10 @@
+shock_probability,comparison,metric,delta_percentage_points,ci_low_pp,ci_high_pp,unit,replicates,confidence
+0.18,majority - local,r_ge_2,0.0,0.0,0.0,physical_frame,2000,0.95
+0.18,majority - local,r_all_3,19.6,18.374374999999997,20.775,physical_frame,2000,0.95
+0.18,majority - local,marginal_error,-0.22499999999999964,-0.8666666666666671,0.3833333333333339,physical_frame,2000,0.95
+0.18,strict - local,r_ge_2,0.0,0.0,0.0,physical_frame,2000,0.95
+0.18,strict - local,r_all_3,0.2,0.075,0.35000000000000003,physical_frame,2000,0.95
+0.18,strict - local,marginal_error,-6.366666666666713,-6.775000000000037,-5.950000000000045,physical_frame,2000,0.95
+0.18,expert - local,r_ge_2,-18.425,-19.650625,-17.150000000000002,physical_frame,2000,0.95
+0.18,expert - local,r_all_3,1.175,0.8750000000000001,1.525,physical_frame,2000,0.95
+0.18,expert - local,marginal_error,-18.64999999999996,-19.49166666666665,-17.79979166666665,physical_frame,2000,0.95

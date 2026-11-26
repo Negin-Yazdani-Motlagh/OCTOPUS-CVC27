@@ -1,0 +1,93 @@
+................................................s....................FFF [ 20%]
+FFF.............FFF..FFF................................................ [ 41%]
+....F...............................F..FFF.............................. [ 61%]
+FF....................................................................F. [ 82%]
+.............................F.............................FF            [100%]
+=================================== FAILURES ===================================
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+----------------------------- Captured stderr call -----------------------------
+
+Fontconfig error: No writable cache directories
+	/opt/miniconda3/var/cache/fontconfig
+	/Users/negin/.cache/fontconfig
+	/Users/negin/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/miniconda3/var/cache/fontconfig
+	/Users/negin/.cache/fontconfig
+	/Users/negin/.fontconfig
+------------------------------ Captured log call -------------------------------
+WARNING  matplotlib:__init__.py:577 /Users/negin/.matplotlib is not a writable directory
+WARNING  matplotlib:__init__.py:596 Matplotlib created a temporary cache directory at /var/folders/p5/x1k7hjys36d9mh1706bxn4fc0000gn/T/matplotlib-nh05q6zv because there was an issue with the default path (/Users/negin/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+WARNING  matplotlib.font_manager:font_manager.py:1249 Matplotlib is building the font cache; this may take a moment.
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/examples/v2v4real_real_seq0007/trace.jsonl'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/samples/three_vehicle_real_published/cooperscene_published_v2v_v2v2.csv'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/samples/three_vehicle_real_published/cooperscene_published_v2v_v2v2.csv'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/packed_outcomes.json'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/packed_outcomes.json'
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+/opt/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError: [Errno 2] No such file or directory: '/Users/negin/UML/Mobihoc_Extention/Octopus-main/empirical/v2v4real/sequence_counts.csv'
+=========================== short test summary info ============================
+FAILED tests/test_cvc_figure_study.py::test_nine_scene_source_totals_and_matched_rates
+FAILED tests/test_cvc_figure_study.py::test_source_integrity_fails_closed - F...
+FAILED tests/test_cvc_figure_study.py::test_bootstrap_is_paired_scene_level_and_repeatable
+FAILED tests/test_cvc_figure_study.py::test_paired_events_keep_frame_id_and_distinct_roi_answers
+FAILED tests/test_cvc_figure_study.py::test_frame_level_executor_matches_energy_cost_anchors
+FAILED tests/test_cvc_figure_study.py::test_energy_assumption_envelopes_do_not_claim_measured_precision
+FAILED tests/test_cvc_figure_study.py::test_cost_forecasts_are_visibility_dependent_not_executions
+FAILED tests/test_cvc_figure_study.py::test_generate_eight_vector_and_raster_figures_from_clean_inputs
+FAILED tests/test_e1_multiobjective_figures.py::test_bundled_recorded_frame_pairs_are_verified
+FAILED tests/test_e1_multiobjective_figures.py::test_exact_reweighting_matches_actual_energy_simulator
+FAILED tests/test_e1_multiobjective_figures.py::test_corrected_frame_level_energy_and_error_endpoints
+FAILED tests/test_e1_multiobjective_figures.py::test_clean_plot_generation_and_output_counts
+FAILED tests/test_energy_e0_e1.py::test_energy_replay_v2v4real_full_fusion_source_verified
+FAILED tests/test_f0_execution_integration.py::test_actual_v2v4real_frame_level_replay_stays_consistent
+FAILED tests/test_f0_reproducible_study.py::test_actual_v07_local_export_matches_online_f0_per_roi
+FAILED tests/test_f0_reproducible_study.py::test_synthetic_and_real_study_outputs_have_nonmisleading_provenance
+FAILED tests/test_f0_reproducible_study.py::test_plots_render_without_placeholder_metadata
+FAILED tests/test_frame_cache_study.py::test_load_sweep_fixed_outcome_endpoints_and_resource_reconciliation
+FAILED tests/test_frame_cache_study.py::test_study_cli_writes_traceable_png_and_csv
+FAILED tests/test_p0_execution_graph.py::test_real_p0_v2v4real_example_end_to_end
+FAILED tests/test_three_vehicle_real_readiness.py::test_published_cooperscene_three_vehicle_numbers_match_pinned_official_table
+FAILED tests/test_v2v4real_public_exploration.py::test_packed_genuine_source_sequence_and_end_to_end_replay
+FAILED tests/test_v2v4real_public_exploration.py::test_aggregate_source_counts_and_reversal
+23 failed, 325 passed, 1 skipped in 33.04s
+EXIT:1

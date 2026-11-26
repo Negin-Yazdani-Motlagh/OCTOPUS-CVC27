@@ -1,0 +1,25 @@
+{
+  "experiment": "Section 5 RQ3 Figure 9, original E1 frame-randomized cooperation",
+  "source_script": "Octopus-main/scripts/run_e1_multiobjective.py",
+  "source_config": "Octopus-main/examples/energy/v2v4real_0007_energy.json",
+  "trace": "/Users/negin/UML/Mobihoc_Extention/Negin_validation/P1/frame_execution/seq0007_trace.jsonl",
+  "trace_parent": "/Users/negin/UML/Mobihoc_Extention/Negin_validation/P0/v2v4real_all/trace.jsonl",
+  "frames": 221,
+  "queries": 442,
+  "arrival_slots": "subtracted the regenerated nine-sequence offset; 0007 frames remain consecutive",
+  "policies": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "seed": 20261118,
+  "bootstrap": {
+    "iterations": 3000,
+    "block_length_frames": 12,
+    "seed": 711910
+  },
+  "energy": "hypothetical E1 profile; horizontal range is nine radio/fusion multipliers, not a confidence interval",
+  "original_sources_modified": false
+}

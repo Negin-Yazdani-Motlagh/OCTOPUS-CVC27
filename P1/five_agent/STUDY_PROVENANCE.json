@@ -1,0 +1,150 @@
+{
+  "source_version": "OCTOPUS-Sim v0.7.1, OCTOPUS-Fusion F0 v0.1.0 integrated",
+  "controlled_study_mode": "actual F0 per-ROI algorithm replay; deterministic analytical E1 physical cost projection; full online executor validated on first N frames per specified policy",
+  "online_validation": [
+    {
+      "method": "local_only",
+      "cutoff": 0.9,
+      "checked_frames": 180,
+      "checked_decisions": 360,
+      "energy_j": 72.00000000000006,
+      "online_mean_latency_ms": 20.0,
+      "verified_prediction_and_resource_fields": 14
+    },
+    {
+      "method": "naive_majority",
+      "cutoff": 0.9,
+      "checked_frames": 180,
+      "checked_decisions": 360,
+      "energy_j": 76.24656000000006,
+      "online_mean_latency_ms": 31.8529999999999,
+      "verified_prediction_and_resource_fields": 14
+    },
+    {
+      "method": "naive_weighted",
+      "cutoff": 0.9,
+      "checked_frames": 180,
+      "checked_decisions": 360,
+      "energy_j": 76.24656000000006,
+      "online_mean_latency_ms": 31.8529999999999,
+      "verified_prediction_and_resource_fields": 14
+    },
+    {
+      "method": "lineage_aware",
+      "cutoff": 0.9,
+      "checked_frames": 180,
+      "checked_decisions": 360,
+      "energy_j": 76.24323200000005,
+      "online_mean_latency_ms": 30.40429999999991,
+      "verified_prediction_and_resource_fields": 14
+    },
+    {
+      "method": "false_independence",
+      "cutoff": 0.9,
+      "checked_frames": 180,
+      "checked_decisions": 360,
+      "energy_j": 76.24323200000005,
+      "online_mean_latency_ms": 30.272599999999912,
+      "verified_prediction_and_resource_fields": 14
+    },
+    {
+      "method": "optimistic_clique",
+      "cutoff": 0.9,
+      "checked_frames": 180,
+      "checked_decisions": 360,
+      "energy_j": 76.24323200000005,
+      "online_mean_latency_ms": 30.272599999999912,
+      "verified_prediction_and_resource_fields": 14
+    },
+    {
+      "method": "mask_clique",
+      "cutoff": 0.9,
+      "checked_frames": 180,
+      "checked_decisions": 360,
+      "energy_j": 76.24323200000005,
+      "online_mean_latency_ms": 30.40429999999991,
+      "verified_prediction_and_resource_fields": 14
+    },
+    {
+      "method": "lineage_aware",
+      "cutoff": 0.999,
+      "checked_frames": 180,
+      "checked_decisions": 360,
+      "energy_j": 76.12675200000005,
+      "online_mean_latency_ms": 20.0,
+      "verified_prediction_and_resource_fields": 14
+    }
+  ],
+  "purpose": "controlled sensitivity analysis, NOT evidence of measured deployed robustness",
+  "synthetic": {
+    "agents": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "true_agent_error_probabilities": [
+      0.055,
+      0.08,
+      0.18,
+      0.18,
+      0.18
+    ],
+    "correlated_clique": [
+      "c",
+      "d",
+      "e"
+    ],
+    "rho_mixture_weights": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "frame_count": 2000,
+    "regions_per_frame": 2,
+    "seed": 5701,
+    "rng": "numpy Generator PCG64",
+    "common_random_numbers_across_rho": true,
+    "same_decision_truths_across_parameter_sweeps": true,
+    "per_agent_error_estimate": "true marginal q except explicitly labeled trust-misspecification scenarios",
+    "edge_placeholder_keys": "synthetic parser compatibility; no independent edge candidate used"
+  },
+  "statistical": {
+    "unit": "physical_frame (all ROIs kept in one cluster)",
+    "method": "paired nonparametric percentile bootstrap, pointwise, not multiplicity-adjusted",
+    "replicates": 2500,
+    "bootstrap_seed": 5810,
+    "scene_generalization": "NOT claimed; synthetic frames are generated IID"
+  },
+  "resource": {
+    "source": "hypothetical E1 power/timing profiles",
+    "one_local_compute_per_agent_per_frame": true,
+    "one_F0_edge_decision_per_frame": true,
+    "downlink": "one fixed payload per agent per frame if ANY ROI accepted",
+    "decision_override": "separate physical result ID replacement from actual changed binary label",
+    "timing": "250 ms frame interval, 180 ms deadline; all results required complete"
+  },
+  "v2v4real": {
+    "sequence": "0007",
+    "frames": 221,
+    "decisions": 442,
+    "scope": "single recorded sequence; no multi-scene uncertainty claim",
+    "model_pipeline_difference": "recorded cooperative model is NOT the F0 vote"
+  },
+  "hypotheses": [
+    "Dependence provenance influences systemic risk more than nominal vote count",
+    "Risk threshold m can reverse a policy ranking",
+    "Post-inference fallback has limited energy leverage after local compute/uploads",
+    "Two-agent agreement can cause share without any changed binary decision"
+  ],
+  "trace_sha256": {
+    "rho_0.00": "126ae1dd7f73bd8c96a22ca99d481a256d675c0a3e9fec866f7e6b11b1fe8a2c",
+    "rho_0.25": "2c92bca81f60b0fb8c12e6653803015e6cfaf0807e6c8497c8a118b236cfa828",
+    "rho_0.50": "b368671436d13ab6484a98eb71ac5e2ad125f27c120446cb0b7d6edd6abe8e5c",
+    "rho_0.75": "fd08f2d6db572e0ec6501d39563fd1ead3d13bd97afbd4eb3b3aae27c68c66f0",
+    "rho_1.00": "549ef7561985b1cc1da2ff07b061b49ba8457c6e1023c462758825419fbd4d7d"
+  }
+}

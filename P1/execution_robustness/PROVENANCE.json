@@ -1,0 +1,59 @@
+{
+  "figures": {
+    "10": "fig6_deadline_cliff",
+    "12": "fig5_sunk_cost_and_roi_reuse"
+  },
+  "source_script": "Octopus-main/scripts/run_three_agent_tradeoff_frontier.py",
+  "frames": 600,
+  "deadline_rois": 2,
+  "roi_counts": [
+    1,
+    2,
+    4
+  ],
+  "thresholds": [
+    0.8,
+    0.87,
+    0.9,
+    0.92,
+    0.94,
+    0.975,
+    0.985,
+    0.995,
+    0.999
+  ],
+  "deadlines_ms": [
+    21.0,
+    24.0,
+    26.0,
+    28.0,
+    30.0,
+    31.0,
+    31.5,
+    32.0,
+    33.0,
+    35.0,
+    38.0,
+    45.0
+  ],
+  "packet_loss_grid": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "packet_loss_deadline_ms": 150.0,
+  "seeds": [
+    77109,
+    77110,
+    77111,
+    77112,
+    77113,
+    77114
+  ],
+  "shock": 0.18,
+  "preservation_violations": 0,
+  "original_sources_modified": false,
+  "energy": "hypothetical E1 profile"
+}

@@ -1,0 +1,25 @@
+{
+  "octopus_source_modified": false,
+  "previous_result_folders_modified": false,
+  "regression_tests_location": "Negin_validation/P1/final_validation/test_regressions.py",
+  "confidence_tolerance_nats": 1e-12,
+  "confidence_rule": "abs(logit) + 1e-12 >= log(threshold / (1 - threshold))",
+  "equal_reliability_seeds": [5701, 5702, 5703, 5704, 5705, 5706],
+  "synthetic_e1": {
+    "config": "Octopus-main/examples/energy/three_agent_per_bit.json",
+    "events": 3000,
+    "bootstrap_replicates": 3000,
+    "block_length": 1,
+    "bootstrap_seed": 711911,
+    "function": "scripts/run_e1_multiobjective.py:evaluate_dataset"
+  },
+  "energy_split": {
+    "seeds": [77109, 77110, 77111, 77112, 77113, 77114],
+    "frames": 600,
+    "rois": 2,
+    "shock": 0.18,
+    "rows": 306
+  },
+  "upstream_pytest": {"passed": 325, "failed": 23, "skipped": 1, "seconds": 33.04},
+  "regression_pytest": {"passed": 5, "failed": 0}
+}

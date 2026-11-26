@@ -1,0 +1,13 @@
+method_a,method_b,paired_cluster_bootstrap_high,paired_cluster_bootstrap_low,paired_risk_difference,resampling_unit,rho,risk_definition,scenario
+naive_majority,local_only,0.0,0.0,0.0,physical_frame,0.75,R_3,five_agent_correlated
+naive_majority,local_only,0.1555,0.1345,0.14475,physical_frame,0.75,R_5,five_agent_correlated
+naive_weighted,local_only,-0.1105,-0.13075,-0.1205,physical_frame,0.75,R_3,five_agent_correlated
+naive_weighted,local_only,0.029,0.01975,0.02425,physical_frame,0.75,R_5,five_agent_correlated
+lineage_aware,local_only,-0.1105,-0.13075,-0.1205,physical_frame,0.75,R_3,five_agent_correlated
+lineage_aware,local_only,0.004,0.001,0.00225,physical_frame,0.75,R_5,five_agent_correlated
+false_independence,local_only,0.0,0.0,0.0,physical_frame,0.75,R_3,five_agent_correlated
+false_independence,local_only,0.02375,0.01525,0.0195,physical_frame,0.75,R_5,five_agent_correlated
+optimistic_clique,lineage_aware,0.13075,0.1105,0.1205,physical_frame,0.75,R_3,five_agent_correlated
+optimistic_clique,lineage_aware,0.02175,0.01275,0.01725,physical_frame,0.75,R_5,five_agent_correlated
+mask_clique,lineage_aware,0.0,0.0,0.0,physical_frame,0.75,R_3,five_agent_correlated
+mask_clique,lineage_aware,0.0,0.0,0.0,physical_frame,0.75,R_5,five_agent_correlated
